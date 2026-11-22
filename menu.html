@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>メニュー｜メリハリベイク 横浜・星川のベイクカフェ</title>
+  <meta name="description" content="メリハリベイクのメニュー。グルテンフリーのバスクチーズケーキ、ガトーショコラ、あの日のプリン、焼き菓子、オリジナルブレンドコーヒー、クロックムッシュプレートなど。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__logo" aria-hidden="true">MB</span>
+        <span class="brand__name">メリハリベイク</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="global-nav" class="global-nav">
+        <a href="index.html#about">私たちについて</a>
+        <a href="menu.html" aria-current="page">メニュー</a>
+        <a href="index.html#info">店舗情報</a>
+        <a href="https://www.instagram.com/meriharibake/" class="btn-line" target="_blank" rel="noopener">お取り置き</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <img class="page-hero__bg" src="images/cheesecake.jpg" alt="">
+      <div class="page-hero__inner">
+        <p class="eyebrow eyebrow--light">Menu</p>
+        <h1 class="page-hero__title">メニュー</h1>
+        <p class="page-hero__lead">ケーキはすべて小麦粉を使わないグルテンフリー。<br>ひと切れと一杯で、気持ちを切りかえる時間を。</p>
+      </div>
+    </section>
+
+    <nav class="category-nav" aria-label="メニューのカテゴリー">
+      <a href="#cake">ケーキ</a>
+      <a href="#seasonal">プリン・季節限定</a>
+      <a href="#baked">焼き菓子</a>
+      <a href="#drink">ドリンク</a>
+      <a href="#food">フード</a>
+      <a href="#deal">おトクな情報</a>
+    </nav>
+
+    <!-- ===== ケーキ ===== -->
+    <section id="cake" class="menu-section">
+      <div class="menu-section__head">
+        <p class="eyebrow">Cake</p>
+        <h2 class="section-title">ケーキ</h2>
+      </div>
+
+      <article class="pickup">
+        <div class="pickup__media">
+          <img src="images/cheesecake.jpg" alt="バスクチーズケーキ（参考写真）" loading="lazy">
+        </div>
+        <div class="pickup__body">
+          <ul class="tags">
+            <li class="tag tag--accent">人気 No.1</li>
+            <li class="tag">グルテンフリー</li>
+          </ul>
+          <h3 class="item-name item-name--large">バスクチーズケーキ</h3>
+          <p class="item-price">650<span>円</span></p>
+          <p class="item-desc">表面はこんがり、なかはしっとり。口のなかでほどけるなめらかさと、ひかえめな甘さで、ひと切れぺろりと食べられます。</p>
+          <ul class="points">
+            <li>小麦粉のかわりにコーンスターチで焼きあげるグルテンフリー</li>
+            <li>チーズの酸味はおだやか。お子さまにも人気</li>
+            <li>香ばしい「ブリュレ」追加もできます（＋100円）</li>
+          </ul>
+          <p class="item-set">ドリンクセット <strong>1,000円</strong></p>
+        </div>
+      </article>
+
+      <div class="item-grid item-grid--single">
+        <article class="item-card">
+          <div class="item-card__media">
+            <img src="images/menu/gateau-chocolat.jpg" alt="ガトーショコラ（参考写真）" loading="lazy">
+          </div>
+          <div class="item-card__body">
+            <ul class="tags"><li class="tag">グルテンフリー</li></ul>
+            <h3 class="item-name">ガトーショコラ</h3>
+            <p class="item-price">650<span>円</span></p>
+            <p class="item-desc">ベルギー産カカオのチョコレートを使用。何種類も試して、最後のひと口まで飽きない味に仕上げました。</p>
+            <ul class="points">
+              <li>甘すぎないので、大人もお子さまも</li>
+              <li>コーヒーとの相性を考えた濃さ</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== プリン・季節限定 ===== -->
+    <section id="seasonal" class="menu-section menu-section--tint">
+      <div class="menu-section__head">
+        <p class="eyebrow">Pudding &amp; Seasonal</p>
+        <h2 class="section-title">プリン・季節限定</h2>
+        <p class="menu-section__lead">新作はほぼ毎月登場。去年人気だった味が、また帰ってくることも。</p>
+      </div>
+
+      <div class="item-grid">
+        <article class="item-card">
+          <div class="item-card__media">
+            <img src="images/menu/pudding.jpg" alt="脚つきグラスにのせたかためのプリン（参考写真）" loading="lazy">
+          </div>
+          <div class="item-card__body">
+            <ul class="tags"><li class="tag tag--accent">店主の自信作</li></ul>
+            <h3 class="item-name">あの日のプリン</h3>
+            <p class="item-price item-price--tbd">[価格]</p>
+            <p class="item-desc">フォークでも食べられる、しっかりかためのプリン。レトロなアイスカップにのせて、ちょっとテンションが上がる見た目に。</p>
+            <ul class="points">
+              <li>開店を決めてから試作を重ねたオリジナル</li>
+              <li>ランチセットのデザートにも選べます</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="item-card">
+          <div class="item-card__media">
+            <img src="images/menu/pumpkin-basque.jpg" alt="かぼちゃのチーズケーキ（参考写真）" loading="lazy">
+          </div>
+          <div class="item-card__body">
+            <ul class="tags">
+              <li class="tag tag--season">秋限定</li>
+              <li class="tag">グルテンフリー</li>
+            </ul>
+            <h3 class="item-name">かぼちゃバスクチーズケーキ</h3>
+            <p class="item-price item-price--tbd">[価格]</p>
+            <p class="item-desc">毎年楽しみにしてくださる方が多い、秋だけのバスクチーズケーキ。かぼちゃのやさしい甘さが広がります。</p>
+            <ul class="points">
+              <li>ドリンクセット 1,200円</li>
+              <li>土日限定で「かぼちゃのプリン」も登場</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== 焼き菓子 ===== -->
+    <section id="baked" class="menu-section">
+      <div class="menu-section__head">
+        <p class="eyebrow">Baked Sweets</p>
+        <h2 class="section-title">焼き菓子</h2>
+      </div>
+
+      <article class="pickup pickup--reverse">
+        <div class="pickup__media">
+          <img src="images/menu/baked-sweets.jpg" alt="ビスコッティなどの焼き菓子（参考写真）" loading="lazy">
+        </div>
+        <div class="pickup__body">
+          <ul class="tags"><li class="tag">テイクアウト</li><li class="tag">お取り置き可</li></ul>
+          <h3 class="item-name item-name--large">日替わりの焼き菓子</h3>
+          <p class="item-desc">店頭には季節の素材を使った焼き菓子が並びます。おやつに、ちょっとした手みやげに。</p>
+          <ul class="price-list">
+            <li><span>米粉のクッキー</span><span class="price-list__price">[価格]</span></li>
+            <li><span>ビスコッティ</span><span class="price-list__price">[価格]</span></li>
+            <li><span>季節の果物のパウンドケーキ</span><span class="price-list__price">[価格]</span></li>
+            <li><span>紅茶とクランベリーのパウンドケーキ</span><span class="price-list__price">[価格]</span></li>
+          </ul>
+          <ul class="points">
+            <li>使っている食材とアレルゲンを表示しています</li>
+            <li>ドリンクと一緒に買うと 50円引き</li>
+            <li>結婚式の引き出物のご相談も承ります</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== ドリンク ===== -->
+    <section id="drink" class="menu-section menu-section--tint">
+      <div class="menu-section__head">
+        <p class="eyebrow">Drink</p>
+        <h2 class="section-title">ドリンク</h2>
+        <p class="menu-section__lead">ドリンクは店主の担当。コーヒーは産地ちがいで数種類を用意しています。</p>
+      </div>
+
+      <div class="item-grid">
+        <article class="item-card">
+          <div class="item-card__media">
+            <img src="images/coffee.jpg" alt="ハンドドリップでコーヒーを淹れる様子（参考写真）" loading="lazy">
+          </div>
+          <div class="item-card__body">
+            <ul class="tags"><li class="tag tag--accent">定番</li><li class="tag">ホット / アイス</li></ul>
+            <h3 class="item-name">オリジナルブレンド</h3>
+            <p class="item-price">650<span>円</span></p>
+            <p class="item-desc">店主の大好きなエチオピアを中心に、3つの産地の豆をブレンド。中深煎りで、華やかな香りとすっきりした後味。</p>
+            <ul class="points">
+              <li>ケーキとの相性を考えたブレンド</li>
+              <li>ケーキとのドリンクセットにも選べます</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="item-card">
+          <div class="item-card__media">
+            <img src="images/menu/matcha-latte.jpg" alt="抹茶ラテ（参考写真）" loading="lazy">
+          </div>
+          <div class="item-card__body">
+            <ul class="tags"><li class="tag">ホット / アイス</li></ul>
+            <h3 class="item-name">抹茶ラテ</h3>
+            <p class="item-price item-price--tbd">[価格]</p>
+            <p class="item-desc">コーヒーが苦手な方にも人気。バスクチーズケーキと合わせるのもおすすめです。</p>
+          </div>
+        </article>
+      </div>
+
+      <ul class="price-list price-list--wide">
+        <li><span>デカフェ（メキシコ）<small>夕方の一杯にも</small></span><span class="price-list__price">[価格]</span></li>
+        <li><span>季節のドリンク<small>自家製の梅シロップなど・数量限定</small></span><span class="price-list__price">[価格]</span></li>
+      </ul>
+    </section>
+
+    <!-- ===== フード ===== -->
+    <section id="food" class="menu-section">
+      <div class="menu-section__head">
+        <p class="eyebrow">Food</p>
+        <h2 class="section-title">フード</h2>
+        <p class="menu-section__lead">土日祝のフードメニューは、当面お休みしています。</p>
+      </div>
+
+      <div class="item-grid">
+        <article class="item-card">
+          <div class="item-card__media">
+            <img src="images/menu/croque-monsieur.jpg" alt="クロックムッシュ（参考写真）" loading="lazy">
+          </div>
+          <div class="item-card__body">
+            <ul class="tags"><li class="tag">平日</li></ul>
+            <h3 class="item-name">クロックムッシュプレート</h3>
+            <p class="item-price">850<span>円</span></p>
+            <p class="item-desc">あぶったチーズがとろける、カフェごはんの定番。ブラックペッパーと蜂蜜がアクセントです。</p>
+          </div>
+        </article>
+
+        <article class="item-card item-card--text">
+          <div class="item-card__body">
+            <ul class="tags"><li class="tag tag--season">月替わり</li></ul>
+            <h3 class="item-name">ランチセット</h3>
+            <p class="item-price item-price--tbd">[価格]</p>
+            <p class="item-desc">内容は毎月かわります。デザートに、ハーフサイズのバスクチーズケーキかプリンがつきます。</p>
+            <ul class="points">
+              <li>今月の内容はInstagramでお知らせします</li>
+            </ul>
+            <a href="https://www.instagram.com/meriharibake/" class="btn-line" target="_blank" rel="noopener">今月のランチを見る</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== おトクな情報 ===== -->
+    <section id="deal" class="deal">
+      <div class="menu-section__head">
+        <p class="eyebrow eyebrow--light">Good to know</p>
+        <h2 class="section-title">おトクな情報</h2>
+      </div>
+      <div class="deal__grid">
+        <div class="deal__item">
+          <p class="deal__label">SET</p>
+          <h3 class="deal__title">ケーキ＋ドリンクセット</h3>
+          <p>好きなケーキとドリンクを組み合わせて。バスクチーズケーキのセットは1,000円。</p>
+        </div>
+        <div class="deal__item">
+          <p class="deal__label">−50円</p>
+          <h3 class="deal__title">焼き菓子＋ドリンク</h3>
+          <p>ドリンクと一緒に焼き菓子を買うと、50円引きになります。</p>
+        </div>
+        <div class="deal__item">
+          <p class="deal__label">FRI</p>
+          <h3 class="deal__title">メリハリパープルフライデー</h3>
+          <p>金曜日は、まとめ買いがおトクになる日。内容はInstagramでチェック。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-cta">
+      <h2 class="menu-cta__title">売り切れの前に、お取り置きを。</h2>
+      <p>ケーキや焼き菓子のお取り置きは、InstagramのDMで承ります。<br>お席の予約はできませんので、ご了承ください。</p>
+      <a href="https://www.instagram.com/meriharibake/" class="btn-fill" target="_blank" rel="noopener">DMでお取り置きを相談する</a>
+      <p class="menu-cta__note">※ 表示の価格は2024〜2025年の取材時点のもので、変わっている場合があります。最新の内容は店頭・Instagramでご確認ください。<br>※ 写真はイメージです。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__message">今日も、最高の一日に。</p>
+    <p class="site-footer__sub">Merihari Bake — Hoshikawa, Yokohama</p>
+    <small class="site-footer__copy">© メリハリベイク</small>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('global-nav');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      toggle.setAttribute('aria-label', open ? 'メニューを開く' : 'メニューを閉じる');
+      nav.classList.toggle('is-open', !open);
+    });
+    nav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'メニューを開く');
+        nav.classList.remove('is-open');
+      });
+    });
+  </script>
+</body>
+</html>
